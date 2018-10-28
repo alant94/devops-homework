@@ -1,6 +1,7 @@
 # Tasks
 
-You have log file 'access.log'. It is simple nginx log. Format is IP -- [DATE] "method query protocol" answer-code answer-weight-in-bytes "from-where-did-user-came" "user agent"
+You have log file 'access.log'. It is simple nginx log. Format is 
+`IP -- [DATE] "method query protocol" answer-code answer-weight-in-bytes "from-where-did-user-came" "user agent"`
 
 # Awk
 * What is the most frequent browser (user agent)?
