@@ -5,15 +5,30 @@ You have log file 'access.log'. It is simple nginx log. Format is
 
 ## Awk
 * What is the most frequent browser (user agent)?
+
+` awk command that solves this task`
+
 * Show number of requests per month for ip 95.108.129.196 (for example: Sep 2016 - 100500 reqs, Oct 2016 - 0 reqs, Nov 2016 - 2 reqs...)
+
+` awk command that solves this task`
+
 * Show total amount of data which server has provided for each unique ip (i.e. 100500 bytes for 1.2.3.4; 9001 bytes for 5.4.3.2 and so on)
+
+` awk command that solves this task`
 
 ## Sed
 * Change all user agents to "lynx"
+
+` sed to do it`
+
 * Masquerade all ip addresses. For example, 1.2.3.4 becomes "ip1", 3.4.5.6 becomse "ip2" and so on. Rewrite file.
+
+` sed to solve this one`
 
 ## Extra
 * Show list of unique ips, who made more then 50 requests to the same url within 10 minutes (for example too many requests to "/")
+
+` some solution here`
 
 
 
